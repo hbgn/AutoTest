@@ -1,0 +1,5 @@
+target/
+ApiTst.iml
+.git
+*/.git/*
+.idea
