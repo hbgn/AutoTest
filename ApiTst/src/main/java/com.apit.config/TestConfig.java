@@ -1,8 +1,7 @@
 package com.apit.config;
 
+import org.apache.http.client.CookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
-
-import java.net.CookieStore;
 
 /*
     处理用户基本信息，储存url变量

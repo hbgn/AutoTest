@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="用户管理系统测试套件">
-    <test>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+<suite name="用户管理系统测试套件">
+    <test name="用户管理系统测试套">
+        <classes>
+            <class name="com.apit.cases.LoginTest">
+                <methods>
+                    <include name="loginTrue"/>
+                    <include name="loginFalse"/>
+                </methods>
+            </class>
+<!--            <class name="com.apit.cases.AddUserTest">-->
+<!--                <methods>-->
+<!--                    <include name="addUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.apit.cases.GetUserInfoListTest">
+                <methods>
+                    <include name="getUserInfoList"/>
+                </methods>
+            </class>
+            <class name="com.apit.cases.GetUserInfoTest">
+                <methods>
+                    <include name="getUseInfo"/>
+                </methods>
+            </class>
+            <class name="com.apit.cases.UpdateUserInfoTest">
+                <methods>
+                    <include name="updateUserInfo"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+        </classes>
     </test>
+    <listeners>
+        <listener class-name="com.tester.config.ExtentTestNGReportListener" />
+    </listeners>
 </suite>

@@ -1,0 +1,4 @@
+com/altis/controller/UserManager.class
+com/altis/model/User.class
+com/altis/config/SwaggerConfig.class
+com/altis/Application.class

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c649736a-4646-4cac-88ef-d68bf1baad54" name="Changes" comment="" />
+    <list default="true" id="c649736a-4646-4cac-88ef-d68bf1baad54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/AddUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/GetUserInfoListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/GetUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/UpdateUserInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTst/src/main/java/com/apit/cases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTst/src/main/resources/mapper/SQLMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTst/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTst/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTst/src/main/resources/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +89,7 @@
       <recent name="com.course.testng.groups" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG./Users/huangkun/workspace/autotest/AutoTest/ApiTst/src/main/resources/testng.xml">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.course.Application" />
       <module name="alis5" />
@@ -190,17 +199,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="alis4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello" />
-      <option name="MAIN_CLASS_NAME" value="hello.Main" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="/Users/huangkun/workspace/autotest/AutoTest/ApiTst/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTst" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ApiTst/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -220,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/huangkun/workspace/autotest/AutoTest/ApiTst/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginTrue" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="TestNG.Main" />
       </list>
     </recent_temporary>
   </component>
